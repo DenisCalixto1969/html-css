@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+
+ body {
+            background-color: rgb(51, 148, 116);
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+          p {
+            color: red;
+          }
+          div {
+            text-align: center;
+          }
+          
+          .direita{
+            text-align: center;
+
+          }
