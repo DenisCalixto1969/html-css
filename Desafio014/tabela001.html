@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html pt="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela media de notas </title>
+<style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+        thead {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+          <table>
+            <caption>
+                Media de Notas
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Area</th>
+                    <th scope="col">Disciplina</th>
+                    <th scope="colgroup">Nota 1</th>
+                    <th scope="colgroup">Nota 2</th>
+                    <th scope="colgroup">Media</th>
+                                     
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">Exatas</th>
+                    <td>Matematica</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Fisca</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th escope="Row" colspan="4" style="text-align: left; background-color: antiquewhite;">Media de Exatas </th>
+                    <td style="background-color: bisque;">15</td>
+                   
+                    
+                    
+                </tr>
+
+                <tr>
+                    <th rowspan="2" scope="rowgroup">Humanas</th>
+                    <td>Historia</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                   
+                </tr>
+                <tr>
+                    <th escope="Row" colspan="4" style="text-align: left; background-color: bisque;">media de humanas</th>
+                    <td style="background-color: bisque;"">10</td>
+                    
+                
+                   
+                    
+                
+            </tbody>
+      </table>
+</body>
+</html>
