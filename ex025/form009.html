@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 009 Ranger</title>
+</head>
+<body>
+    <h1> Formulario 009 - teste de ranger</h1>
+    
+    <form action="pagina001.html" method="post" autocomplete="on">
+
+    <p>
+        <label for="innumero">Numero:</label>
+        <input type="range" name="numero" id="inumero" min="0" max="10" value="5" oninput="ivalor.innerHTML = Number(inumero.value)">
+        <output id="ivalor">5</output>      
+        
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+    
+    </form>
+    
+    
+    
+    
+</body>
+</html>
