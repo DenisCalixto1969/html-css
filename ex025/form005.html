@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html pt="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form05</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="pagina001.html" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imasculino" value="M"> <label for="imasculino">Masculino</label> <br>
+            <input type="radio" name="sexo" id="ifeminino" value="F"> <label for="ifeminino" >Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="espfutebol" id="iespfutebol"> <label for="iespfutebol">Futebol</label> <br>
+            <input type="checkbox" name="espbasquete" id="iesbasquete"> <label for="iesbasquete">Basquete</label> <br>
+            <input type="checkbox" name="esptenis" id="iesptenis"> <label for="iesptenis">Tenis</label> <br>
+            <input type="checkbox" name="espvolei" id="iespvolei"> <label for="iespvolei">Volei</label> <br>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
