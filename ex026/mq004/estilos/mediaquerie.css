@@ -1,2 +1,42 @@
 @charset 'UTF-8';
-/*para todas as demais midias - tv celular tablet impressora etc*/
+/*para todas as demais midias - tv celular tablet impressora etc   
+Typical device breakpoints - telas pequenas ate 600px / celular de 600 ate 768 / tablet de 768 a 992
+ desktop de 992 a 1200 e grandes telas acima de 1200px*/
+
+ @media print{
+    
+ }
+ 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: url(../imagens/back-tablet.jpg);
+  }
+    img#fone {display: none;}
+    img#tablete {display: block;}
+    img#impressora {display: none;}
+    img#computador {display: none;}
+    img#televisao {display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background-image: url(../imagens/back-pc.jpg);
+  }
+    img#fone {display: none;}
+    img#tablete {display: none;}
+    img#impressora {display: none;}
+    img#computador {display: block;}
+    img#televisao {display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(../imagens/back-tv.jpg);
+  }
+    img#fone {display: none;}
+    img#tablete {display: none;}
+    img#impressora {display: none;}
+    img#computador {display: none;}
+    img#televisao {display: block;}
+
+}
