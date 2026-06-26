@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html pt="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Querie 005</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.style.css">
+</head>
+<body>
+    <header>
+            <h1>Meu Site</h1>
+            <i id="burguer" class="material-icons" onclick="clickMenu()" >menu</i>
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Opção01</a></li>
+                    <li><a href="#">Opção02</a></li>
+                    <li><a href="#">Opção03</a></li>
+                    <li><a href="#">Opção04</a></li>
+                    <li><a href="#">Opção05</a></li>
+                </ul>
+            </menu>
+    </header>
+    <main>
+          <article>
+                    <h2>Testando Media Querie</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores quas ratione voluptates dignissimos sequi illum ullam architecto aperiam labore, nihil totam! Esse iusto eligendi magni repellendus laborum vel omnis earum?</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem minima officiis praesentium quod dolor, doloremque delectus aut accusamus necessitatibus natus sequi exercitationem ex rem ad omnis vero magnam molestias!</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore adipisci maiores deleniti nemo repellendus, quaerat mollitia et harum qui voluptatem doloremque delectus iure magni facere fugiat tempore optio laboriosam explicabo.</p>
+          </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+               itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+            
+        }
+        
+    </script>
+    
+</body>
+</html>
