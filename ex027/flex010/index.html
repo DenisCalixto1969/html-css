@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html pt="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexble Box</title>
+    <style>
+        div.caixamae {
+            background-color: yellow;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        
+        div.item {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 350px;
+            flex-shrink: 1;
+            flex-flow: 0;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div class="caixamae">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        
+    </div>    
+</body>
+</html>
