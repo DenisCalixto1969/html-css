@@ -23,15 +23,13 @@ header{
 }
 
 header > h1 {
-    border: 1px dotted black;
-   
-    flex: 0 0 200px
+    /*border: 1px dotted black; faz a borda pontilhada, facilita visualizar a caixa */
+    flex: 0 0 200px /* comando em uma unica linha- sao tres comandos*/
    
 }
 
 header > nav {
-    border: 1px dotted black;   
- 
+   /* border: 1px dotted black;  para fazer a borda pontilhada */
     display: flex; 
     flex-flow: row wrap;
     justify-content: end;
